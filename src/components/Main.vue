@@ -1,9 +1,9 @@
 <template>
   <div>
     <app-nav></app-nav>
-     <header>
+     <!-- <header>
         <a href="#" id="logo">Logo</a>
-    </header>
+    </header> -->
 
     <section id="hero1" class="hero">
         <div class="inner">

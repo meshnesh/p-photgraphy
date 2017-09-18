@@ -1,7 +1,10 @@
 <template>
   <div class="nav">
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-light center">
-      <a class="navbar-brand text-dark" href="#">Adventure</a>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top light-bg center">
+      <!-- <header>
+        <a href="#" id="logo">Logo</a>
+    </header> -->
+      <a class="navbar-brand text-dark" href="#"id="logo">Logo</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
