@@ -1,8 +1,118 @@
-body{
-  padding-top: 0em;
+html,
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
-.jumbotron{
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+header a {
+    color: white;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0px 30px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    float: left;
+}
+
+#hero1 {
+    background: url('../imgs/Co.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#hero2 {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/21555/Melissani-cave-natural.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.hero,
+.content {
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+
+.inner {
+    min-height: 664px;
+    position: relative;
+}
+
+.hero .inner {
+    background: rgba(0, 0, 0, 0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
+}
+
+.copy {
+    position: absolute;
+    top: 50%;
+    height: 10em;
+    margin-top: -5em;
+    width: 100%;
+}
+.About.copy {
+  position: absolute;
+  top: 40%;
+  height: 10em;
+  margin-top: -5em;
+  width: 100%;
+}
+
+.hero h1,
+.hero p {
+    color: #fff;
+}
+
+.content h1,
+.content p {
+    color: #333;
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 32px;
+    padding: 0px 20px;
+}
+
+p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    padding: 0px 20px;
+}
+
+
+/* old css */
+
+/* # pixel css */
+/* body{
+  padding-top: 0em;
+} */
+
+/* .jumbotron{
   background-image: url('../imgs/Po.jpg');
   background-size: cover;
   background-position: center;
@@ -15,35 +125,44 @@ body{
     background: rgba(221, 221, 221, 0.4);
     padding: 0.8em;
     left: 5.6%;
-}
+} */
 
-.about-intro > h1 {
+/* .about-intro > h1 {
   text-transform: uppercase;
-}
+} */
 
 .heading{
-  text-align: center;
-  padding-top: 104px;
+  margin-bottom: 6%;
 }
 
+.heading > p , h1{
+ width: 100%;
+ text-transform: uppercase;
+}
+
+.heading > p{
+  font-size: 16px;
+  font-weight: 100;
+ }
+
+ .heading > h1{
+  font-size: 40px;
+  font-weight: 900;
+ }
+/*
 header{
   text-align: center;
   width: 100%;
   margin-top: 12px;
   margin-bottom: 40px;
-}
+} */
 
-header h1{
+/* header h1{
   font-weight: 900;
   text-transform: uppercase;
-}
+} */
 
-.heading > p{
-  /* margin-top: 8px; */
-  width: 100%;
-  text-transform: uppercase;
-  color: #e0952d;;
-}
+
 
 .nested {
   display: grid;
@@ -110,11 +229,8 @@ grid-row:7/9;
 }
 
 .gallery{
-  height: 160vh;
-}
-
-.About{
-  background-color: #000;
+  margin-top: 8%;
+  min-height: 152vh;
 }
 
 .d-md-block{
@@ -122,3 +238,4 @@ grid-row:7/9;
   left: 10%;
   position: relative;
 }
+

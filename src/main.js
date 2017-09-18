@@ -9,8 +9,11 @@ import './assets/css/carousel.css'
 import './assets/css/app.css'
 // css imports
 // import './assets/js/jquery.mixitup.min'
+import Nav from './components/Nav.vue'
 
 Vue.config.productionTip = false
+
+Vue.component('app-nav', Nav)
 
 /* eslint-disable no-new */
 

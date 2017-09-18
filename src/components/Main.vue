@@ -1,22 +1,28 @@
 <template>
   <div>
-    <div class="jumbotron rounded-0">
-      <!-- <div class="container about-intro rounded">
-        <h1 class="display-3">pixel photography</h1>
-        <!-- <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae et laborum hic est eum in voluptas! Blanditiis dignissimos earum molestiae officia numquam, rem excepturi quo laudantium. Doloremque nesciunt nemo deserunt!
-        </p> -->
-      <!-- </div> -->
-    </div>
-    <!-- END OF jumbotron -->
+    <app-nav></app-nav>
+     <header>
+        <a href="#" id="logo">Logo</a>
+    </header>
 
-    <!-- GALLERY NESTED ROW -->
+    <section id="hero1" class="hero">
+        <div class="inner">
+            <div class="copy">
+                <h1>Choice mountains bro</h1>
+                <p>Its like im actually there! But sitting at a computer. Wow, the future is intense!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="inner">
+           <!-- GALLERY NESTED ROW -->
     <div class="container gallery">
       <div class="row heading">
         <p>the selected of</p>
-        <header>
+        <!-- <header> -->
           <h1>portfolio</h1>
-        </header>
+        <!-- </header> -->
       </div>
       <div class="nested row">
         <div class="box1">
@@ -49,23 +55,38 @@
       </div>
     </div>
       <!-- .row -->
-
-      <div class="album About">
-        <div class="col-12">
-          <div class="row heading">
-            <p>something</p>
-            <header>
-              <h1>about me</h1>
-            </header>
-          </div>
-
+            <!-- <div class="copy">
+                <h1>Amazing copy!</h1>
+                <p>The words are like jumping out at me man! </p>
+            </div> -->
         </div>
-        <div class="d-none d-md-block">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit corporis odit minus eius reiciendis quas, in animi a nam, beatae similique alias. Illum, esse commodi corporis facere assumenda delectus consectetur.Modi tempore non, molestias aspernatur praesentium odit, voluptates blanditiis voluptatum ut minima vitae impedit voluptatibus, soluta saepe porro laudantium? Ea veritatis soluta eos inventore odit ut laboriosam mollitia placeat quidem?
-          </p>
+    </section>
+
+    <section id="hero2" class="hero">
+        <div class="inner">
+
+            <div class="copy About">
+              <div class="row heading">
+                <p>something</p>
+                <!-- <header> -->
+                  <h1>about me</h1>
+                <!-- </header> -->
+              </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis vel aut voluptates, esse impedit illum tempora corporis neque ex amet temporibus atque, iusto dolorem. Ad dolor beatae nam optio unde!Asperiores quas suscipit atque a totam facilis, animi ut odit aliquid minus temporibus explicabo earum non, assumenda architecto ea. Excepturi nam beatae corrupti, necessitatibus ullam magni. Maiores maxime veniam cum.
+                </p>
+            </div>
         </div>
-      </div>
+    </section>
+
+    <section class="content">
+        <div class="inner">
+            <div class="copy">
+                <h1>An inspiring quote</h1>
+                <p>/-- file not found --/</p>
+            </div>
+        </div>
+    </section>
   </div>
 </template>
 
