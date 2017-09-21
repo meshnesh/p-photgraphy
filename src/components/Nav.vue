@@ -4,18 +4,21 @@
       <!-- <header>
         <a href="#" id="logo">Logo</a>
     </header> -->
-      <a class="navbar-brand text-dark" href="#"id="logo">Logo</a>
+      <a class="navbar-brand text-light" href="#"id="logo">Logo</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto text-dark">
+        <ul class="navbar-nav mr-auto text-light">
           <li class="nav-item active">
-            <router-link class="nav-link text-dark" v-bind:to="'/'">Home <span class="sr-only">(current)</span></router-link>
+            <router-link class="nav-link text-light" v-bind:to="'/'">Home <span class="sr-only">(current)</span></router-link>
           </li>
           <li class="nav-item">
-             <router-link class="nav-link text-dark" v-bind:to="'/grid'">Grid</router-link>
+             <router-link class="nav-link text-light" v-bind:to="'/grid'">Grid</router-link>
+          </li>
+          <li class="nav-item">
+             <router-link class="nav-link text-light" v-bind:to="'/card'">Card</router-link>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">

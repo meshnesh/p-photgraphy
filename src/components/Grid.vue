@@ -43,10 +43,6 @@
               <img class="card-img-top rounded" src="../assets/imgs/fourth.jpg" alt="">
             </div>
           </div>
-            <!-- <div class="copy">
-                <h1>An inspiring quote</h1>
-                <p>/-- file not found --/</p>
-            </div> -->
         </div>
     </section>
   </div>

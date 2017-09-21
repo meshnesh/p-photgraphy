@@ -47,7 +47,7 @@ header a {
 }
 
 #hero2 {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/21555/Melissani-cave-natural.jpg);
+    background: url('../imgs/Po.jpg');
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -241,5 +241,10 @@ grid-row:7/9;
   width: 64%;
   left: 10%;
   position: relative;
+}
+
+.about-p{
+  width: 64%;
+  margin-left: 16%;
 }
 
