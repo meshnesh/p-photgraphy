@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import $ from 'jquery'
 // css imports
 import './assets/css/bootstrap.min.css'
 import './assets/css/carousel.css'
@@ -21,7 +22,7 @@ import Client from './components/Client.vue'
 import Contact from './components/Contact.vue'
 
 Vue.config.productionTip = false
-
+Vue.use($)
 Vue.component('app-nav', Nav)
 Vue.component('app-client', Client)
 Vue.component('app-contact', Contact)

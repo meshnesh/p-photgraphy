@@ -39,11 +39,10 @@ $(document).ready(function() {
 
 $(window).load(function() {
 
-	$('.nav_slide_button').click(function() {
+	$('.nav_slide_button').click(function () {
 		$('.pull').slideToggle();
-	});
-
-});
+	})
+})
 
 /***************** Smooth Scrolling ******************/
 
