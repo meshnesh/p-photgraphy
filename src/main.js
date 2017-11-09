@@ -7,13 +7,24 @@ import router from './router'
 import './assets/css/bootstrap.min.css'
 import './assets/css/carousel.css'
 import './assets/css/app.css'
-// css imports
+
+// js imports
+// import './assets/js/slider/waypoints.min'
+// import './assets/js/slider/bootstrap.min'
+// import './assets/js/slider/scripts'
+// import './assets/js/slider/jquery.flexslider'
+// import './assets/js/slider/modernizr'
+
 // import './assets/js/jquery.mixitup.min'
 import Nav from './components/Nav.vue'
+import Client from './components/Client.vue'
+import Contact from './components/Contact.vue'
 
 Vue.config.productionTip = false
 
 Vue.component('app-nav', Nav)
+Vue.component('app-client', Client)
+Vue.component('app-contact', Contact)
 
 /* eslint-disable no-new */
 

@@ -2,6 +2,16 @@ html,
 body {
     margin: 0px;
     padding: 0px;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+}
+
+a:hover{
+  text-decoration: none;
+  cursor: pointer;
 }
 
 *,
@@ -12,10 +22,22 @@ body {
     box-sizing: border-box;
 }
 
+hr{
+  width: 6%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 2px solid red;
+}
+
+.navbar{
+  padding: 0;
+}
+
 header {
     z-index: 1;
     position: fixed;
-    width: 100%;
+    width: 80%;
     height: 60px;
     background: rgba(0, 0, 0, 0.1);
 }
@@ -39,8 +61,22 @@ header a {
     float: left;
 }
 
+.logo-li{
+  width: 20%;
+}
+
+.logo-img{
+  width: 64%;
+  float: left;
+}
+
+.nav-item{
+  padding-top: 10px;
+}
+
 #hero1 {
     background: url('../imgs/Co.jpg');
+    /* background: url('../imgs/Pe.jpg'); */
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -58,6 +94,7 @@ header a {
     text-align: center;
     position: relative;
     width: 100%;
+    /* margin-bottom: 2em; */
 }
 
 .inner {
@@ -66,7 +103,8 @@ header a {
 }
 
 .hero .inner {
-    background: rgba(0, 0, 0, 0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
+    height: 0;
 }
 
 .copy {
@@ -74,8 +112,19 @@ header a {
     top: 50%;
     height: 10em;
     margin-top: -5em;
-    width: 100%;
+    width: 88%;
 }
+.service{
+  background: #f3f5f8;
+}
+.services {
+  position: absolute;
+  top: 24%;
+  height: 10em;
+  margin-top: -5em;
+  width: 100%;
+}
+
 .About.copy {
   position: absolute;
   top: 40%;
@@ -136,21 +185,23 @@ p {
 } */
 
 .heading{
-  margin-bottom: 6%;
+  margin-bottom: 4%;
+  width: 80%;
 }
 
 .heading > p , h1{
- width: 100%;
+ width: 96%;
  text-transform: uppercase;
 }
 
 .heading > p{
   font-size: 16px;
   font-weight: 100;
+  text-transform: lowercase;
  }
 
  .heading > h1{
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 900;
  }
 /*
@@ -232,9 +283,32 @@ grid-row:7/9;
 /* background: #3949AB; */
 }
 
+.box10{
+  grid-column: 1;
+  grid-row:10;
+  /* background: #3949AB; */
+  }
+
+.box11{
+  grid-column: 2;
+  grid-row:11;
+  margin-top: -30px
+}
+
+.box12{
+  grid-column: 3;
+  grid-row:10;
+}
+
+.box13{
+  grid-column: 2;
+  grid-row:14;
+  margin-top: -30px
+}
+
 .gallery{
   margin-top: 8%;
-  min-height: 152vh;
+  min-height: 224vh;
 }
 
 .d-md-block{
@@ -247,4 +321,96 @@ grid-row:7/9;
   width: 64%;
   margin-left: 16%;
 }
+
+.pricing{
+  margin-top: 104px;
+}
+
+/* PRICING SECTION */
+
+.title{
+  font-weight: 900;
+}
+ul{
+  list-style-type: none;
+}
+
+.products-profile{
+  margin: 1em;
+}
+
+.photo-products{
+  text-align: left;
+  align-content: left;
+  margin-left: 16%;
+  width: 64%;
+}
+
+.prices{
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+  /* grid-gap: 1em; */
+  grid-auto-rows: 70px;
+  /* padding: 1em; */
+  grid-auto-rows: minmax(84px , auto);
+}
+
+.prices > div{
+  padding-top: 24px;
+}
+
+.content1{
+grid-column: 1;
+grid-row:2/7;
+/* background: #3949AB; */
+box-shadow: -2px 0px 8px 0px red;
+padding-top: 32px!important;
+}
+.content3{
+grid-column: 3;
+grid-row:2/7;
+/* background: #3949AB; */
+box-shadow: 2px 0px 8px 0px red;
+}
+.content2{
+grid-column: 2;
+grid-row:1/8;
+/* background: #3949AB; */
+z-index: 1000;
+box-shadow: 0px 0px 16px 1px red;
+padding-top: 24%!important;
+}
+.price{
+  font-size: 56px;
+  font-weight: 900;
+}
+.sign{
+  font-size: 24px;
+    font-weight: 900;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: -4%;
+}
+.month{
+  font-weight: 900;
+}
+
+.second-btn{
+  margin-top: 16%;
+}
+.btn-secondary{
+  text-transform: uppercase;
+}
+
+/* END OF PRICING SECTION */
+.mastfoot{
+  min-height: 40px;
+  padding: 1em;
+  margin-top: 40px;
+}
+
+.price-card{
+  margin-bottom: 2em;
+}
+
 
