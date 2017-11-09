@@ -5,6 +5,9 @@
 ## Build Setup
 
 ``` bash
+#clone the project
+git clone https://github.com/meshnesh/p-photgraphy.git
+
 # install dependencies
 npm install
 
